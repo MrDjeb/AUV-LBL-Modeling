@@ -1,0 +1,12 @@
+{
+	// Enable inlay hints for variable types
+	"python.analysis.inlayHints.variableTypes": true,
+	// Enable inlay hints for return value types
+	"python.analysis.inlayHints.functionReturnTypes": true,
+	// Enable inlay hints for all parameter names
+	"python.analysis.inlayHints.callArgumentNames": "all",
+	// Enable inlay hints for the parameter types of pytest functions or methods
+	"python.analysis.inlayHints.pytestParameters": true,
+	// Disable support for pytest, which will invalidate the pytestParameters setting item
+	"python.analysis.enablePytestSupport": false
+}
